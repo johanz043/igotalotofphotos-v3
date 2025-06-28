@@ -52,3 +52,11 @@ p {
     background-color: rgba(0, 119, 204, 1);
 }
 
+.email-link {
+    color: white;
+    text-decoration: none;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
