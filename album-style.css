@@ -52,13 +52,13 @@
 .album-links a {
     text-decoration: none;
     font-size: 18px;
-    color: #0077cc;
+    color: black;
     transition: color 0.3s;
 }
 
 .album-links a:hover {
     text-decoration: underline;
-    color: #005fa3;
+    color: black;
 }
 
 .right {
