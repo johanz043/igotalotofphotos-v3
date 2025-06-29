@@ -1,79 +1,32 @@
 <html lang="en">
-    <body style="background-color: rgb(82, 82, 82);"></body>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>igotalotofphotos</title>
-
-        <style>
-            a.link {
-                text-decoration: none;
-                color: #0077cc;
-            }
-            a.link:hover {
-                text-decoration: underline;
-            }
-
-            .Photos {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr); /* 3 columns */
-                gap: 20px; /* spacing between photos */
-                padding: 20px;
-            }
-
-            .Photos img {
-                width: 100%;
-                height: auto;
-                border-radius: 8px;
-                object-fit: cover;
-            }
-
-            .Photos figcaption {
-                font-size: 18px;
-                text-align: center;
-                margin-top: 8px;
-                color: black;
-    }
-            .Title p {
-                font-size: 25px; 
-            }
-
-            .Title h1 {
-                font-size: 30px; 
-            }
-            
-        </style>
-
-    </head>
-
-
-        <div class="Title">
-                <h1>Johanz's Photos</h1>
-                <p>Welcome to my photography page! This page is an extension from my photography account on Instagram 
-                    <a href="https://www.instagram.com/igotalotofphotos" target="_blank" class="link"> @igotalotofphotos </a>
-                </p>
-                <p>All the photos on this website have been taken by me on my Nikon D5300. Enjoy looking around!</p>
-            </body>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>igotalotofphotos</title>
+    <link rel="stylesheet" href="album-style.css" />
+</head>
+  
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Johanz's Albums</h1>
+            <p>Welcome to my album page!</p>
+            <p>This page is an extension of my Instagram: 
+                <a href="https://www.instagram.com/igotalotofphotos" target="_blank" class="link">@igotalotofphotos</a>
+            </p>
+            <p>All photos are taken on my Nikon D5300!</p>
+            <div class="album-links">
+                <a href="beach-photos.html">📷 Beach Photos</a>
+                <a href="melbourne-city.html">🌆 Melbourne City</a>
+                <a href="st-kilda-gardens.html">🌿 St Kilda Botanical Gardens</a>
+            </div>
         </div>
-
-        <div class="Photos">
-            <figure>
-                <a href="beach-photos.html"><img src="beach-photos/P7.JPG" alt="Beach">
-                <figcaption>Beach Photos</figcaption>
-                </a>
-            </figure>
-
-            <figure>
-                <a href="melbourne-city.html"><img src="melbourne-city/P7.JPG" alt="Beach">
-                <figcaption>Melbourne City</figcaption>
-                </a>
-            </figure>
-
-            <figure>
-                <a href="st-kilda-gardens.html"><img src="st-kilda-gardens/P6.JPG" alt="Gardens">
-                <figcaption>St Kilda Botanical Gardens</figcaption>
-                </a>
-            </figure>
+      
+        <div class="right">
+            <img src="beach-photos/P5.jpg" alt="Cover photo" />
         </div>
+    </div>
+</body>
 </html>
+
