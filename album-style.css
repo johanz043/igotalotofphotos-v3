@@ -6,11 +6,6 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-body {
-    background-color: #f5f5f5;
-    color: #333;
-}
-
 .container {
     display: flex;
     flex-direction: row;
@@ -24,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    backround-color: rgb(82, 82, 82);
 }
 
 .left h1 {
