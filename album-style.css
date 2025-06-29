@@ -3,20 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     width: 100%;
-    min-height: 100vh; /* allow it to grow taller if needed */
+    min-height: 100vh; 
 }
 
-.body {
-    backround-color: rgb(82, 82, 82);
-    color: #333;
-}
 
 .left {
     width: 40%;
@@ -24,6 +20,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: rgb(82, 82, 82);
 }
 
 .left h1 {
