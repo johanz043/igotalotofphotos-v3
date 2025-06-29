@@ -24,12 +24,12 @@
 }
 
 .left h1 {
-    font-size: 36px;
+    font-size: 45px;
     margin-bottom: 20px;
 }
 
 .left p {
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 15px;
     line-height: 1.8;
 }
@@ -52,7 +52,7 @@
 
 .album-links a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
     color: black;
     transition: color 0.3s;
 }
