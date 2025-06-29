@@ -13,13 +13,17 @@
     min-height: 100vh; /* allow it to grow taller if needed */
 }
 
+.body {
+    backround-color: rgb(82, 82, 82);
+    color: #333;
+}
+
 .left {
     width: 40%;
     padding: 40px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    backround-color: rgb(82, 82, 82);
 }
 
 .left h1 {
